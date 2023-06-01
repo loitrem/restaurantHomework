@@ -1,0 +1,120 @@
+.navbarWrapper{
+    background-color: darkblue;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.titleText {
+    font-size: 32px;
+    color: rgb(250, 186, 102);
+
+}
+
+.navbarItems{
+    display: flex;
+    justify-content: center;
+}
+
+.navbarLinks{
+    margin: 10px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainImage {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.foodPic {
+    width: 50%;
+
+}
+
+.locations {
+    text-align: center;
+}
+
+
+ul li {
+    margin-top: 50px;
+    list-style-type: none;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.aboutWrapper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.menuWrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.menuBtn{
+width: 125px;
+height: 30px;
+border-radius: 20px;
+background-color: darkblue;
+color: white;
+font-size: 14px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+.menuBtn:hover {
+    width: 125px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: darkred;
+    color: white;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-weight: bold;
+    }
+
+.menuTextDrinks, .menuTextChicken, .menuTextDessert{
+    text-align: left;
+}
+
+.listText {
+    list-style-type: none;
+    font-size: 40px;   
+}
+
+body {
+    margin: 0;
+}
